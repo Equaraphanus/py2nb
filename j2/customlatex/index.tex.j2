@@ -1,0 +1,19 @@
+
+((* extends 'style_jupyter.tex.j2' *))
+
+
+%===============================================================================
+% Latex Article
+%===============================================================================
+
+((*- block definitions -*))
+    \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+    \setmainfont{Liberation Sans}
+    \setsansfont{Liberation Sans}
+    \setmonofont{Consolas}
+    ((( super() )))
+((*- endblock definitions -*))
+
+((*- block docclass -*))
+\documentclass{article}
+((*- endblock docclass -*))
