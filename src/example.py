@@ -42,7 +42,7 @@ print('This is the line #4 from the same code cell')
 
 
 #: ## The Markdown
-#: You can do many things with markdown, but this section does not aim to show any existing or even supported feature.
+#: You can do many things with markdown, but this section does not aim to show every existing or even supported feature.
 #: Instead, this section describes some important things to note when writing markdown comments in this format.
 
 #: ### Headers
@@ -52,7 +52,7 @@ print('This is the line #4 from the same code cell')
 #:     #: ####Wrong
 
 #: ### Tables
-#: Tables require an empty line before before the first row if there is some text above in the same cell,
+#: Tables require an empty line before the first row if there is some text above in the same cell,
 #: otherwise they are not interpreted correctly and things get messy:
 #:
 #:     #: Right:
