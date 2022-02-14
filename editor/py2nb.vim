@@ -28,7 +28,7 @@ syn match markdownLineStart "\(^#: \)\@<=" nextgroup=@markdownBlock,htmlSpecialC
 syn match py2nbSpecialComment "^#\(: \|:$\|=\)" nextgroup=py2nbMarkdownContainer
 syn match py2nbMarkdownContainer "\(^#: \)\@<=.*$" contains=@py2nbMarkdownBlock
 
-syn include @py2nbMarkdownBlock $VIMRUNTIME/syntax/markdown.vim 
+syn include @py2nbMarkdownBlock $VIMRUNTIME/syntax/markdown.vim
 unlet b:current_syntax
 syn region py2nbMarkdownComment start="^#:\( \|$\)" end="$" keepend contains=py2nbSpecialComment,py2nbMarkdownContainer
 
